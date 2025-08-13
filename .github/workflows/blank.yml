@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run a multi-line script
         run: |
-          which mkfs.ext2
+          mkfs.ext2
